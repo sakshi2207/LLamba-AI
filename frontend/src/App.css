@@ -1,0 +1,25 @@
+.App {
+  flex: 1;
+  height: 100vh;
+   background: linear-gradient(45deg, #ff6b6b, #3a1c71, #17a2b8, #7f6b96);
+  background-size: 400% 400%;
+  display:'flex';
+  animation: gradientAnimation 30s linear infinite;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 100% 0%; }
+  50% { background-position: 0% 100%; }
+  75% { background-position: 100% 100%; }
+  100% { background-position: 0% 50%; }
+}
+.App-heading{
+  color: white;
+  font-weight: 400;
+  background: #000;
+  font-family: serif;
+  margin-top: 20px;
+}
+

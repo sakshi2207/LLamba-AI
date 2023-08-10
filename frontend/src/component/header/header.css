@@ -1,0 +1,20 @@
+
+
+.container {
+    display: flex;
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .leftContainer{
+
+
+  }
+  .btnStyle{
+    padding: 10px;
+    color:white;
+    
+  }
